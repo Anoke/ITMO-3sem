@@ -1,0 +1,5 @@
+wmic os get caption > version.txt
+wmic computersystem get totalphysicalmemory > memory.txt
+wmic os get freephysicalmemory >> memory.txt
+wmic logicaldisk list brief > disks.txtmd TEST
+xcopy * TESTcopy * COPYfor /f "skip=1" %%i in ('dir . /b/a-d/o-d/t:c') do del %%icopy *.bat commands.txt

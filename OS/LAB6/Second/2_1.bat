@@ -1,0 +1,1 @@
+net share temp=C:\LAB6\Second

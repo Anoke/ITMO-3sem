@@ -1,0 +1,1 @@
+net share temp=C:\LAB6\Secondforfiles /P "C:\Windows" /C "cmd /c if @fsize GEQ 2097152 copy @path %~dp0temp /Z"SCHTASKS /Create /SC MINUTE /TN MyTask /TR 2_2.batSCHTASKS /Delete /TN MyTaskfc %~dp0temp C:\LAB6\Second\tempxcopy \\%computername%\temp\File1.txt C:\LAB6copy *.bat commands

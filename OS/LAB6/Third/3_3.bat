@@ -1,0 +1,1 @@
+fc C:\LAB6\Third\service.txt C:\LAB6\Third\serviceNew.txt > C:\LAB6\Third\check

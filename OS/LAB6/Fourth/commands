@@ -1,0 +1,1 @@
+driverquery /FO TABLE /NH > driverssort /r drivers > sortedDriverscopy *.bat commands
